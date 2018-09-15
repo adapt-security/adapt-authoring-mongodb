@@ -1,0 +1,12 @@
+{
+  "name": "adapt-authoring-mongodb",
+  "version": "0.0.1",
+  "description": "Plugin for saving to a MongoDB",
+  "main": "index.js",
+  "adapt_authoring": {
+    "module": true
+  },
+  "dependencies": {
+    "mongoose": "5.0.17"
+  }
+}
