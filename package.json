@@ -7,6 +7,7 @@
     "module": true
   },
   "dependencies": {
+    "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git",
     "mongoose": "5.0.17"
   }
 }
