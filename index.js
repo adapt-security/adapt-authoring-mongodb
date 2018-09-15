@@ -1,2 +1,2 @@
 const mongodb = require('./lib/mongodb');
-module.exports = MongoDB;
+module.exports = mongodb;
