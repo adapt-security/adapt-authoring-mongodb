@@ -1,13 +1,35 @@
 {
-  "name": "adapt-authoring-mongodb",
-  "version": "0.0.1",
-  "description": "Plugin for saving to a MongoDB",
-  "main": "index.js",
+  "_from": "git+https://github.com/taylortom/adapt-authoring-mongodb.git",
+  "_id": "adapt-authoring-mongodb@0.0.1",
+  "_inBundle": false,
+  "_location": "/adapt-authoring-mongodb",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/taylortom/adapt-authoring-mongodb.git",
+    "rawSpec": "git+https://github.com/taylortom/adapt-authoring-mongodb.git",
+    "saveSpec": "git+https://github.com/taylortom/adapt-authoring-mongodb.git",
+    "fetchSpec": "https://github.com/taylortom/adapt-authoring-mongodb.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/taylortom/adapt-authoring-mongodb.git#2349a2c86b1bcbed8847a3424c0fe79b664f2f38",
+  "_spec": "git+https://github.com/taylortom/adapt-authoring-mongodb.git",
+  "_where": "/Users/tom/Projects/adapt_authoring_restructure/adapt-authoring",
   "adapt_authoring": {
     "module": true
   },
+  "bundleDependencies": false,
   "dependencies": {
     "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git",
     "mongoose": "5.0.17"
-  }
+  },
+  "deprecated": false,
+  "description": "Plugin for saving to a MongoDB",
+  "main": "index.js",
+  "name": "adapt-authoring-mongodb",
+  "version": "0.0.1"
 }
