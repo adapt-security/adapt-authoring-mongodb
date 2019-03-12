@@ -20,7 +20,11 @@
   "_spec": "git+https://github.com/taylortom/adapt-authoring-mongodb.git",
   "_where": "/Users/tom/Projects/adapt_authoring_restructure/adapt-authoring",
   "adapt_authoring": {
-    "module": true
+    "module": true,
+    "documentation": {
+      "enable": true,
+      "include": "lib/*"
+    }
   },
   "bundleDependencies": false,
   "dependencies": {
