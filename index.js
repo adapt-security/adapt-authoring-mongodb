@@ -1,4 +1,4 @@
-const mongodb = require('./lib/mongodb');
+const mongodb = require('./lib/module');
 const MongooseSchema = require('./lib/mongooseschema');
 
 module.exports = {
