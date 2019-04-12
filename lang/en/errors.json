@@ -1,0 +1,11 @@
+{
+  "AddModelFail": "Failed to add model",
+  "ConnectionFail": "Failed to connect to the database",
+  "CreateFail": "Failed to create new document",
+  "NoConnection": "Not connected to the database",
+  "RetrieveFail": "Failed to retrieve documents",
+  "InvalidSchema": "Schema not valid",
+  "UnknownModel": "No matching model found",
+  "UpdateFail": "Failed to update document(s)",
+  "DeleteFail": "Failed to delete document(s)"
+}
