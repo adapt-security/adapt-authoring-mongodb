@@ -8,5 +8,6 @@
   "UnknownModel": "No matching model found",
   "UpdateFail": "Failed to update document(s)",
   "DeleteFail": "Failed to delete document(s)",
-  "ExpectedDataStoreQuery": "Expected DataStoreQuery"
+  "ExpectedDataStoreQuery": "Expected DataStoreQuery",
+  "IsRequired": "is required"
 }
