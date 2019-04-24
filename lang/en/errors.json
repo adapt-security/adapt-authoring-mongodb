@@ -9,5 +9,6 @@
   "UpdateFail": "Failed to update document(s)",
   "DeleteFail": "Failed to delete document(s)",
   "ExpectedDataStoreQuery": "Expected DataStoreQuery",
-  "IsRequired": "is required"
+  "IsRequired": "is required",
+  "InvalidValue": "has invalid value"
 }
