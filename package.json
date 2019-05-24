@@ -1,7 +1,8 @@
 {
   "name": "adapt-authoring-mongodb",
-  "description": "Plugin for saving to a MongoDB",
   "version": "0.0.1",
+  "description": "Plugin for saving to a MongoDB",
+  "homepage": "https://github.com/taylortom/adapt-authoring-mongodb",
   "main": "index.js",
   "adapt_authoring": {
     "module": true,
