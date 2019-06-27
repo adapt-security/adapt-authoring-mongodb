@@ -1,5 +1,6 @@
 {
   "AddModelFail": "Failed to add model",
+  "GetModelFail": "Failed to get model",
   "ConnectionFail": "Failed to connect to the database",
   "CreateFail": "Failed to create new document",
   "NoConnection": "Not connected to the database",
