@@ -6,7 +6,7 @@
   "deletedocs": "Failed to delete document(s)",
   "expecteddatastorequery": "Expected DataStoreQuery",
   "genericvalidation": "NEW VALIDATION ERROR: %{path}, %{path}, %{value}",
-  "getmodel": "Failed to get model '%{model}'",
+  "getmodel": "Failed to get model type '%{model}'",
   "invalidschema": "Schema not valid",
   "invalidvalue": "%{path} has invalid value",
   "isrequired": "%{path} is required",
@@ -14,5 +14,5 @@
   "retrievefail": "Failed to retrieve documents",
   "unknownmodel": "No matching model found",
   "updatedocs": "Failed to update document(s)",
-  "compilemodel": "Model must be compiled to use 'MongoModel#${func}'"
+  "compilemodel": "Model must be compiled to use 'MongoModel#%{func}'"
 }
