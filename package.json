@@ -15,8 +15,10 @@
     }
   },
   "dependencies": {
-    "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git",
     "mongoose": "5.5.11",
     "mongoose-update-if-current": "1.0.3"
+  },
+  "peerDependencies": {
+    "adapt-authoring-core": "git+https://github.com/taylortom/adapt-authoring-core.git"
   }
 }
