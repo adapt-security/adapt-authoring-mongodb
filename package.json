@@ -7,11 +7,7 @@
   "adapt_authoring": {
     "module": true,
     "documentation": {
-      "enable": true,
-      "includes": {
-        "source": "lib/*",
-        "docs": "docs/*"
-      }
+      "enable": true
     }
   },
   "dependencies": {
