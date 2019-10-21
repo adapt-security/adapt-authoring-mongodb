@@ -4,6 +4,7 @@
   "createdocs": "Failed to create new document",
   "retrievedocs": "Failed to retrieve document(s)",
   "deletedocs": "Failed to delete document(s)",
+  "nocreatedata": "no data was passed",
   "expecteddatastorequery": "Expected DataStoreQuery",
   "genericvalidation": "NEW VALIDATION ERROR: %{path}, %{path}, %{value}",
   "getmodel": "Failed to get model type '%{model}'",
