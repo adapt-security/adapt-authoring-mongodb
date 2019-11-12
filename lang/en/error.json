@@ -1,5 +1,4 @@
 {
-  "addmodel": "Failed to add model '%{model}'",
   "connection": "Failed to connect to the database",
   "createdocs": "Failed to create new document",
   "retrievedocs": "Failed to retrieve document(s)",
@@ -7,13 +6,10 @@
   "nocreatedata": "no data was passed",
   "expecteddatastorequery": "Expected DataStoreQuery",
   "genericvalidation": "NEW VALIDATION ERROR: %{path}, %{path}, %{value}",
-  "getmodel": "Failed to get model type '%{model}'",
   "invalidschema": "Schema not valid",
   "invalidvalue": "%{path} has invalid value",
   "isrequired": "%{path} is required",
   "noconnection": "Not connected to the database",
   "retrievefail": "Failed to retrieve documents",
-  "unknownmodel": "No matching model found",
   "updatedocs": "Failed to update document(s)",
-  "compilemodel": "Model must be compiled to use 'MongoModel#%{func}'"
 }
