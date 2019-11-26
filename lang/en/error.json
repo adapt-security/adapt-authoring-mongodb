@@ -12,5 +12,5 @@
   "isrequired": "%{path} is required",
   "noconnection": "Not connected to the database",
   "retrievefail": "Failed to retrieve documents",
-  "updatedocs": "Failed to update document(s)",
+  "updatedocs": "Failed to update document(s)"
 }
