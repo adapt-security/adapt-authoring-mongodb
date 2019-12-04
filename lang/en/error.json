@@ -4,7 +4,7 @@
   "retrievedocs": "Failed to retrieve document(s)",
   "deletedocs": "Failed to delete document(s)",
   "nocreatedata": "no data was passed",
-  "expecteddatastorequery": "Expected DataStoreQuery",
+  "expecteddataquery": "Expected DataQuery",
   "expecteddata": "Expected data",
   "genericvalidation": "NEW VALIDATION ERROR: %{path}, %{path}, %{value}",
   "invalidschema": "Schema not valid",
