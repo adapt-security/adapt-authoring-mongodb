@@ -1,2 +1,1 @@
-const MongoDB = require('./lib/module');
-module.exports = MongoDB;
+module.exports = require('./lib/mongoDBModule');
