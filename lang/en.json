@@ -1,0 +1,19 @@
+{
+  "error.connection": "Failed to connect to the database",
+  "error.createdocs": "Failed to create new document",
+  "error.retrievedocs": "Failed to retrieve document(s)",
+  "error.deletedocs": "Failed to delete document(s)",
+  "error.nocreatedata": "no data was passed",
+  "error.expecteddataquery": "Expected DataQuery",
+  "error.expecteddata": "Expected data",
+  "error.genericvalidation": "NEW VALIDATION ERROR: %{path}, %{path}, %{value}",
+  "error.invalidschema": "Schema not valid",
+  "error.invalidvalue": "%{path} has invalid value",
+  "error.isrequired": "%{path} is required",
+  "error.noconnection": "Not connected to the database",
+  "error.retrievefail": "Failed to retrieve documents",
+  "error.updatedocs": "Failed to update document(s)",
+  "error.nomatchingdocs": "No matching documents found",
+  "info.createdocssuccess": "document(s) created successfully",
+  "info.connected": "connected to %{uri}"
+}
