@@ -4,12 +4,6 @@
   "description": "Module for saving to a MongoDB instance",
   "homepage": "https://github.com/taylortom/adapt-authoring-mongodb",
   "main": "index.js",
-  "adapt_authoring": {
-    "module": true,
-    "documentation": {
-      "enable": true
-    }
-  },
   "dependencies": {
     "mongoose": "5.5.11",
     "mongoose-update-if-current": "1.0.3"
