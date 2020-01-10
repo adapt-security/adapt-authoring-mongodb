@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "host": {
+      "type": "string",
+      "description": "Name of the host machine where the Mongo database is running",
+      "required": true
+    },
+    "port": {
+      "type": "number",
+      "description": "Port where the Mongo database is listening",
+      "required": true
+    },
+    "dbname": {
+      "type": "string",
+      "description": "Name of the Mongo database to connect to",
+      "required": true
+    }
+  }
+}
