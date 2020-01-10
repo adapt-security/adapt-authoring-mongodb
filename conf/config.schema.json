@@ -15,5 +15,5 @@
       "description": "Name of the Mongo database to connect to"
     }
   },
-  "required": ["host", "port", "dname"]
+  "required": ["host", "port", "dbname"]
 }
