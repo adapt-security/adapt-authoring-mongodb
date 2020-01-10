@@ -4,18 +4,16 @@
   "properties": {
     "host": {
       "type": "string",
-      "description": "Name of the host machine where the Mongo database is running",
-      "required": true
+      "description": "Name of the host machine where the Mongo database is running"
     },
     "port": {
       "type": "number",
-      "description": "Port where the Mongo database is listening",
-      "required": true
+      "description": "Port where the Mongo database is listening"
     },
     "dbname": {
       "type": "string",
-      "description": "Name of the Mongo database to connect to",
-      "required": true
+      "description": "Name of the Mongo database to connect to"
     }
-  }
+  },
+  "required": ["host", "port", "dname"]
 }
