@@ -6,6 +6,7 @@
   "error.nocreatedata": "no data was passed",
   "error.expecteddataquery": "Expected DataQuery",
   "error.expecteddata": "Expected data",
+  "error.expectedtype": "expected data type to be set",
   "error.genericvalidation": "NEW VALIDATION ERROR: %{path}, %{path}, %{value}",
   "error.invalidschema": "Schema not valid",
   "error.invalidvalue": "%{path} has invalid value",
