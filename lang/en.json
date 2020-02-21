@@ -15,6 +15,7 @@
   "error.noconnection": "Not connected to the database",
   "error.retrievefail": "Failed to retrieve documents",
   "error.updatedocs": "Failed to update document(s)",
+  "error.replacedocs": "Failed to replace document(s)",
   "error.nomatchingdocs": "No matching documents found",
   "info.createdocssuccess": "document(s) created successfully",
   "info.connected": "connected to %{uri}"
