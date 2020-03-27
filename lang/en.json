@@ -6,5 +6,6 @@
   "error.noconnection": "Not connected to the database",
   "error.replacedocs": "Failed to replace document(s)",
   "error.updatedocs": "Failed to update document(s)",
+  "error.duplicateindex": "Cannot have multiple documents with the same indexed key value",
   "info.connected": "connected to %{uri}"
 }
