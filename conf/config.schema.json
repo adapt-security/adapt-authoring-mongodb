@@ -7,7 +7,7 @@
       "description": "Name of the host machine where the Mongo database is running"
     },
     "port": {
-      "type": "number",
+      "type": ["number", "string"],
       "description": "Port where the Mongo database is listening"
     },
     "dbname": {
