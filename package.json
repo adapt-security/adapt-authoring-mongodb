@@ -8,6 +8,6 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
-    "mongodb": "3.4.1"
+    "mongodb": "3.5.9"
   }
 }
