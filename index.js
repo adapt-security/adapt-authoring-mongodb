@@ -1,1 +1,1 @@
-module.exports = require('./lib/mongoDBModule');
+module.exports = require('./lib/MongoDBModule');
