@@ -7,5 +7,6 @@
   "error.replacedocs": "Failed to replace document(s)",
   "error.updatedocs": "Failed to update document(s)",
   "error.duplicateindex": "Cannot have multiple documents with the same indexed key value",
+  "error.immutablefield": "Cannot update an immutable field",
   "info.connected": "connected to %{uri}"
 }
