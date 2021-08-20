@@ -1,6 +1,9 @@
 {
   "isEssential": true,
   "documentation": {
-    "enable": true
+    "enable": true,
+    "manualSections": {
+      "using-mongodb": "basics"
+    }
   }
 }
