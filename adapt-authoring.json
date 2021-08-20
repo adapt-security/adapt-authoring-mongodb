@@ -3,7 +3,7 @@
   "documentation": {
     "enable": true,
     "manualSections": {
-      "using-mongodb": "basics"
+      "using-mongodb.md": "basics"
     }
   }
 }
