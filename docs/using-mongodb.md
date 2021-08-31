@@ -54,7 +54,7 @@ It is possible to access the Node.js driver API directly from the MongoDBModule 
 
 There are two methods of accessing the driver API. Which one you use is entirely up to you, and mostly comes down to code brevity:
 - Using the MongoDB client instance [[Adapt docs](/class/node_modules/adapt-authoring-mongodb/lib/MongoDBModule.js~MongoDBModule.html#instance-member-client), [MongoDB Node.js driver docs](https://mongodb.github.io/node-mongodb-native/3.6/api/MongoClient.html)]
-- Using the MongoDB collection [[Adapt docs](/class/node_modules/adapt-authoring-mongodb/lib/MongoDBModule.js~MongoDBModule.html#instance-method-getCollection), [MongoDB Node.js driver docs](https://mongodb.github.io/node-mongodb-native/3.4/api/Collection.html)]
+- Using the MongoDB collection [[Adapt docs](/class/node_modules/adapt-authoring-mongodb/lib/MongoDBModule.js~MongoDBModule.html#instance-method-getCollection), [MongoDB Node.js driver docs](https://mongodb.github.io/node-mongodb-native/3.6/api/Collection.html)]
 
 ```
 // using the client instance
@@ -63,4 +63,4 @@ mongodb.client.db.collection('mycollection').aggregate(/* args */)
 mongodb.getCollection('mycollection').aggregate(/* args */)
 ```
 
-See the [MongoDB Node.js driver docs](https://mongodb.github.io/node-mongodb-native/3.4/api/Collection.html) for the full API.
+See the [MongoDB Node.js driver docs](https://mongodb.github.io/node-mongodb-native/3.6/api/Collection.html) for the full API.
