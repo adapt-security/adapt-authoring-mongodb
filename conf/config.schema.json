@@ -5,6 +5,7 @@
     "connectionUri": {
       "type": "string",
       "description": "The MongoDB connection URI used to connect to your MongoDB deployment.",
+      "format": "uri",
       "examples": [
         "mongodb://localhost/adapt-authoring",
         "mongodb://test1.adaptlearning.org:27018,test2.adaptlearning.org:27019/?replicaSet=test"
