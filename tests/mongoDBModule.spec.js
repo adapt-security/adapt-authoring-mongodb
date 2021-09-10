@@ -1,4 +1,4 @@
-const MongoDBModule = require('../lib/mongoDBModule');
+const MongoDBModule = require('../lib/MongoDBModule');
 const should = require('should');
 
 describe('MongoDB module', function() {
