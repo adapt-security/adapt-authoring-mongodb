@@ -2,7 +2,7 @@
   "isEssential": true,
   "documentation": {
     "enable": true,
-    "manualSections": {
+    "manualPages": {
       "using-mongodb.md": "basics"
     }
   }
