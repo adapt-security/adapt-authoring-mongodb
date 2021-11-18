@@ -4,11 +4,11 @@
   "description": "Module for saving to a MongoDB instance",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-mongodb",
   "license": "GPL-3.0",
-  "type": "module",  
+  "type": "module",
   "main": "index.js",
   "repository": "adaptlearning/adapt-authoring-mongodb",
   "dependencies": {
-    "mongodb": "^3.6.1"
+    "mongodb": "^4.2.0"
   },
   "peerDependencies": {
     "adapt-authoring-core": "adapt-security/adapt-authoring-core"
