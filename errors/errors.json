@@ -1,0 +1,37 @@
+{
+  "INVALID_OBJECTID": {
+    "description": "Not a valid ObjectId",
+    "statusCode": 400
+  },
+  "MONGO_CONN_FAILED": {
+    "description": "An error occurred connecting to the MongoDB instance",
+    "statusCode": 500
+  },
+  "MONGO_DUPL_INDEX": {
+    "data": {
+      "action": "The action being performed on the database collection",
+      "collectionName": "Name of the collection being processed",
+      "error": "The error message"
+    },
+    "description": "A document already exists with the same indexed value",
+    "statusCode": 400
+  },
+  "MONGO_ERROR": {
+    "data": {
+      "action": "The action being performed on the database collection",
+      "collectionName": "Name of the collection being processed",
+      "error": "The error message"
+    },
+    "description": "An error occurred while performing a MongoDB action",
+    "statusCode": 500
+  },
+  "MONGO_IMMUTABLE_FIELD": {
+    "data": {
+      "action": "The action being performed on the database collection",
+      "collectionName": "Name of the collection being processed",
+      "error": "The error message"
+    },
+    "description": "Attempting to modify an immutable field",
+    "statusCode": 400
+  }
+}
