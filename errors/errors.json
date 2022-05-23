@@ -4,6 +4,10 @@
     "statusCode": 400
   },
   "MONGO_CONN_FAILED": {
+    "data": {
+      "error": "The error message",
+      "uri": "The connection URI"
+    },
     "description": "An error occurred connecting to the MongoDB instance",
     "statusCode": 500
   },
