@@ -3,8 +3,8 @@
   "type": "object",
   "properties": {
     "connectionUri": {
-      "type": "string",
       "description": "The MongoDB connection URI used to connect to your MongoDB deployment.",
+      "type": "string",
       "format": "uri",
       "examples": [
         "mongodb://localhost/adapt-authoring",
