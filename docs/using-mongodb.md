@@ -13,7 +13,7 @@ The `adapt-authoring-mongodb` module uses MongoDB's [Node.js driver](https://mon
 
 Where possible, the MongoDBModule API has been designed to mirror the MongoDB Node.js driver API in both naming convensions and parameter naming/order. In some cases this has been changed for ease-of-use (e.g. `insertOne` has been renamed to `insert`). Please see the [Adapt authoring reference for the MongoDBModule](/class/node_modules/adapt-authoring-mongodb/lib/MongoDBModule.js~MongoDBModule.html) for more information (details on which of the MongoDB Node.js driver functions are used is specified there).
 
-_If you're new to working with MongoDB, check out this [Quick Start](https://mongodb.github.io/node-mongodb-native/4.2/#quick-start) guide in the official docs for a good overview._
+> If you're new to working with MongoDB, check out this [Quick Start](https://mongodb.github.io/node-mongodb-native/4.2/#quick-start) guide in the official docs for a good overview.
 
 ### Basic use
 The following functions provide the most common functionality, and will likely be the functions you use most often. Please see the [API reference]([/class/node_modules/adapt-authoring-mongodb/lib/MongoDBModule.js~MongoDBModule.html](https://tomtaylor.codes/ls/jsdoc3/MongoDBModule.html)) for full details.
