@@ -7,7 +7,7 @@
       "type": "string",
       "format": "uri",
       "examples": [
-        "mongodb://localhost/adapt-authoring",
+        "mongodb://0.0.0.0/adapt-authoring",
         "mongodb://test1.adaptlearning.org:27018,test2.adaptlearning.org:27019/?replicaSet=test"
       ]
     }
