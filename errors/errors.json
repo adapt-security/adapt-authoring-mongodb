@@ -1,5 +1,8 @@
 {
   "INVALID_OBJECTID": {
+    "data": {
+      "value": "The value"
+    },
     "description": "Not a valid ObjectId",
     "statusCode": 400
   },
