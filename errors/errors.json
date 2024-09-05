@@ -8,7 +8,7 @@
   },
   "MONGO_CONN_FAILED": {
     "data": {
-      "error": "The error message",
+      "error": "The error message"
     },
     "description": "An error occurred connecting to the MongoDB instance",
     "statusCode": 500
