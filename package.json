@@ -19,6 +19,9 @@
     "semantic-release": "^25.0.2",
     "standard": "^17.1.0"
   },
+  "scripts": {
+    "test": "node tests/index.js"
+  },
   "release": {
     "plugins": [
       [
