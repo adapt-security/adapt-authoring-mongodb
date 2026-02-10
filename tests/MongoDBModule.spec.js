@@ -32,7 +32,7 @@ describe('MongoDBModule', () => {
       assert.equal(options.skip, 5)
     })
 
-    it('should delete option if parsing fails', () => {
+    it('should return NaN for invalid string values', () => {
       const options = { limit: 'invalid' }
       instance.parseOptions(options)
       // parseInt returns NaN for invalid strings, not throwing an error
