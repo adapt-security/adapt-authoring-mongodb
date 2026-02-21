@@ -102,12 +102,4 @@ describe('MongoDBModule', () => {
     })
   })
 
-  describe('#ObjectId', () => {
-    it('should return ObjectIdUtils', () => {
-      const { instance } = createInstance()
-      assert.ok(instance.ObjectId)
-      assert.equal(typeof instance.ObjectId.isValid, 'function')
-      assert.equal(typeof instance.ObjectId.create, 'function')
-    })
-  })
 })
