@@ -101,5 +101,4 @@ describe('MongoDBModule', () => {
       assert.equal(result.code, 'MONGO_ERROR')
     })
   })
-
 })
