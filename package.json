@@ -16,17 +16,6 @@
     "adapt-authoring-core": "^2.0.0",
     "adapt-authoring-jsonschema": "^1.2.2"
   },
-  "peerDependenciesMeta": {
-    "adapt-authoring-config": {
-      "optional": true
-    },
-    "adapt-authoring-core": {
-      "optional": true
-    },
-    "adapt-authoring-jsonschema": {
-      "optional": true
-    }
-  },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-eslint": "^6.0.0",
