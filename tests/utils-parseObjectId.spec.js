@@ -15,24 +15,24 @@ mock.getter(App, 'instance', () => ({
   }
 }))
 
-const { parse } = await import('../lib/utils/parse.js')
+const { parseObjectId } = await import('../lib/utils/parseObjectId.js')
 
-describe('parse()', () => {
+describe('parseObjectId()', () => {
   it('should return same ObjectId if already an ObjectId instance', () => {
     const id = new ObjectId()
-    assert.equal(parse(id), id)
+    assert.equal(parseObjectId(id), id)
   })
 
   it('should convert a valid ObjectId string to an ObjectId', () => {
     const str = '507f1f77bcf86cd799439011'
-    const result = parse(str)
+    const result = parseObjectId(str)
     assert.ok(result instanceof ObjectId)
     assert.equal(result.toString(), str)
   })
 
   it('should throw INVALID_OBJECTID for an invalid string', () => {
     assert.throws(
-      () => parse('not-a-valid-id'),
+      () => parseObjectId('not-a-valid-id'),
       (err) => {
         assert.equal(err.message, 'INVALID_OBJECTID')
         assert.deepEqual(err.data, { value: 'not-a-valid-id' })
@@ -43,7 +43,7 @@ describe('parse()', () => {
 
   it('should throw INVALID_OBJECTID for an empty string', () => {
     assert.throws(
-      () => parse(''),
+      () => parseObjectId(''),
       (err) => {
         assert.equal(err.message, 'INVALID_OBJECTID')
         return true
@@ -53,14 +53,14 @@ describe('parse()', () => {
 
   it('should convert a 24-char hex string', () => {
     const hex = 'aabbccddeeff00112233aabb'
-    const result = parse(hex)
+    const result = parseObjectId(hex)
     assert.ok(result instanceof ObjectId)
     assert.equal(result.toString(), hex)
   })
 
   it('should throw for a 23-char string', () => {
     assert.throws(
-      () => parse('507f1f77bcf86cd79943901'),
+      () => parseObjectId('507f1f77bcf86cd79943901'),
       (err) => {
         assert.equal(err.message, 'INVALID_OBJECTID')
         return true

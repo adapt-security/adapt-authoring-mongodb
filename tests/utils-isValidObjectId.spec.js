@@ -15,39 +15,39 @@ mock.getter(App, 'instance', () => ({
   }
 }))
 
-const { isValid } = await import('../lib/utils/isValid.js')
+const { isValidObjectId } = await import('../lib/utils/isValidObjectId.js')
 
-describe('isValid()', () => {
+describe('isValidObjectId()', () => {
   it('should return true for a valid ObjectId string', () => {
     const id = new ObjectId()
-    assert.equal(isValid(id.toString()), true)
+    assert.equal(isValidObjectId(id.toString()), true)
   })
 
   it('should return true for a 24-char hex string', () => {
-    assert.equal(isValid('507f1f77bcf86cd799439011'), true)
+    assert.equal(isValidObjectId('507f1f77bcf86cd799439011'), true)
   })
 
   it('should return false for a random string', () => {
-    assert.equal(isValid('not-an-objectid'), false)
+    assert.equal(isValidObjectId('not-an-objectid'), false)
   })
 
   it('should return false for an empty string', () => {
-    assert.equal(isValid(''), false)
+    assert.equal(isValidObjectId(''), false)
   })
 
   it('should return false for a number', () => {
-    assert.equal(isValid(12345), false)
+    assert.equal(isValidObjectId(12345), false)
   })
 
   it('should return false for a 23-char hex string', () => {
-    assert.equal(isValid('507f1f77bcf86cd79943901'), false)
+    assert.equal(isValidObjectId('507f1f77bcf86cd79943901'), false)
   })
 
   it('should return false for null', () => {
-    assert.equal(isValid(null), false)
+    assert.equal(isValidObjectId(null), false)
   })
 
   it('should return false for undefined', () => {
-    assert.equal(isValid(undefined), false)
+    assert.equal(isValidObjectId(undefined), false)
   })
 })
