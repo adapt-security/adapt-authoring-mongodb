@@ -1,6 +1,6 @@
 {
   "name": "adapt-authoring-mongodb",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Module for saving to a MongoDB instance",
   "homepage": "https://github.com/adapt-security/adapt-authoring-mongodb",
   "license": "GPL-3.0",
