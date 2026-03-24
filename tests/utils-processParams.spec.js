@@ -11,6 +11,13 @@ mock.getter(App, 'instance', () => ({
         e.data = data
         return e
       }
+    },
+    MONGO_BLOCKED_OPERATOR: {
+      setData (data) {
+        const e = new Error('MONGO_BLOCKED_OPERATOR')
+        e.data = data
+        return e
+      }
     }
   }
 }))
@@ -42,7 +49,7 @@ describe('processParams()', () => {
     it('should reject unsafe query operators', () => {
       assert.throws(
         () => processParams({ query: { $where: 'true' } }),
-        { message: 'Use of the $where operator is not permitted' }
+        { message: 'MONGO_BLOCKED_OPERATOR' }
       )
     })
   })
