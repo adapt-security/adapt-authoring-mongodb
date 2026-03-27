@@ -6,6 +6,13 @@
     "description": "Not a valid ObjectId",
     "statusCode": 400
   },
+  "MONGO_BLOCKED_OPERATOR": {
+    "data": {
+      "operator": "The blocked operator"
+    },
+    "description": "A query contained a blocked MongoDB operator that could allow arbitrary code execution",
+    "statusCode": 400
+  },
   "MONGO_CONN_FAILED": {
     "data": {
       "error": "The error message"
