@@ -101,4 +101,26 @@ describe('MongoDBModule', () => {
       assert.equal(result.code, 'MONGO_ERROR')
     })
   })
+
+  describe('#count()', () => {
+    it('should convert ObjectId strings in the query before counting', async () => {
+      const { instance } = createInstance()
+      const countDocuments = mock.fn(async () => 3)
+      instance.getCollection = mock.fn(() => ({ countDocuments }))
+      const query = { _id: '507f1f77bcf86cd799439011' }
+      const result = await instance.count('courses', query)
+      assert.equal(result, 3)
+      const [received] = countDocuments.mock.calls[0].arguments
+      assert.equal(received._id.constructor.name, 'ObjectId')
+      assert.equal(received._id.toString(), '507f1f77bcf86cd799439011')
+    })
+
+    it('should wrap driver errors via getError', async () => {
+      const { instance } = createInstance()
+      instance.getCollection = mock.fn(() => ({
+        countDocuments: mock.fn(async () => { throw new Error('boom') })
+      }))
+      await assert.rejects(() => instance.count('courses', {}), e => e.code === 'MONGO_ERROR')
+    })
+  })
 })
