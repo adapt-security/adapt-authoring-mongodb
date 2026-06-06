@@ -4,7 +4,7 @@ import MongoDBModule from '../lib/MongoDBModule.js'
 
 /**
  * MongoDBModule extends AbstractModule and requires a running MongoDB connection.
- * We test parseOptions and getError in isolation.
+ * We test getError in isolation (parseOptions was replaced by processParams utility).
  */
 
 function createInstance () {
@@ -34,48 +34,6 @@ function createInstance () {
 }
 
 describe('MongoDBModule', () => {
-  describe('#parseOptions()', () => {
-    it('should parse string limit to integer', () => {
-      const { instance } = createInstance()
-      const options = { limit: '10' }
-      instance.parseOptions(options)
-      assert.equal(options.limit, 10)
-    })
-
-    it('should parse string skip to integer', () => {
-      const { instance } = createInstance()
-      const options = { skip: '5' }
-      instance.parseOptions(options)
-      assert.equal(options.skip, 5)
-    })
-
-    it('should handle undefined options gracefully', () => {
-      const { instance } = createInstance()
-      instance.parseOptions(undefined)
-    })
-
-    it('should handle options without limit or skip', () => {
-      const { instance } = createInstance()
-      const options = { sort: { name: 1 } }
-      instance.parseOptions(options)
-      assert.deepEqual(options, { sort: { name: 1 } })
-    })
-
-    it('should keep numeric limit as-is', () => {
-      const { instance } = createInstance()
-      const options = { limit: 10 }
-      instance.parseOptions(options)
-      assert.equal(options.limit, 10)
-    })
-
-    it('should skip undefined limit', () => {
-      const { instance } = createInstance()
-      const options = { limit: undefined }
-      instance.parseOptions(options)
-      assert.equal(options.limit, undefined)
-    })
-  })
-
   describe('#getError()', () => {
     it('should return MONGO_IMMUTABLE_FIELD for error code 66', () => {
       const { instance } = createInstance()
